@@ -17,7 +17,9 @@ async function runMySQL() {
   return mySQLBackend.max();
 }
 
-runMySQL()
+runMongo()
+  // runRedis()
+  // runMySQL()
   .then((result) => {
     console.log(result);
   })
